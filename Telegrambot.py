@@ -8,7 +8,7 @@ def intro(update:Update, context:CallbackContext):
     bot.send_message(
         chat_id=update.effective_chat.id,
         text="Hi I am a Datascientist,"
-             "How can i help you?",
+             "How can i help you in your work?",
         )
 start=CommandHandler('Hi',intro)
 dispatcher.add_handler(start)
